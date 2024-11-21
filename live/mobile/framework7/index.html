@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3a57c4">
+    <title>CRMS - Framework7 HTML Mobile Template</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    
+    <!-- Bootstrap CSS -->
+	<!--link rel="stylesheet" href="assets/css/bootstrap.min.css"-->
+
+	<!-- Framwork7 CSS -->
+	<link rel="stylesheet" href="assets/css/framework7.bundle.min.css">
+	<link rel="stylesheet" href="assets/css/framework7-icons.css">
+
+	<!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- Select2 CSS -->
+	<link rel="stylesheet" href="assets/plugins/select2/select2.min.css">
+
+	<!-- Feather CSS -->
+	<link rel="stylesheet" href="assets/css/feather.css">
+
+	<!-- Select2 CSS -->
+	<link rel="stylesheet" href="assets/plugins/select2/select2.min.css">
+
+	<!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/plugins/swiper/css/swiper.min.css">
+
+	<!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+
+<body class="home">
+
+	<div id="app">
+		<div class="statusbar"></div>
+		
+        <div class="panel panel-left panel-cover">
+            <div class="block no-padding">
+                <div class="side-menu" id="sidebar-menu">
+                	<div class="panel-close close-btn"><i class="feather-x"></i></div>
+                    <ul>
+		                <li>
+		                    <a class="panel-close" href="../../../index.html">
+		                    	<img src="assets/img/icons/dashboard-icon.png" alt="Side Menu Icons" />
+								Dashboard
+							</a>
+		                </li>
+		                <li>
+		                	<a class="panel-close" href="../../../tasks/index.html">
+		                		<img src="assets/img/icons/task-icon.png" alt="Side Menu Icons" />
+                				Tasks
+		                	</a>
+		                </li>
+		                <li>
+		                    <a class="panel-close" href="../../../contacts/index.html">
+		                    	<img src="assets/img/icons/contacts-icon.png" alt="Side Menu Icons" />
+								Contacts
+		                    </a>
+		                </li>
+						<li>
+		                    <a class="panel-close" href="../../../calendar/index.html">
+		                    	<img src="assets/img/icons/activities-icon.png" alt="Side Menu Icons" />
+								Calendar
+		                    </a>
+		                </li>
+		                <li>
+		                    <a class="panel-close" href="../../../companies/index.html">
+		                    	<img src="assets/img/icons/dashboard-icon.png" alt="Side Menu Icons" />
+								Companies
+		                    </a>
+		                </li>
+		                <li>
+		                    <a class="panel-close" href="../../../leads/index.html">
+		                    	<img src="assets/img/icons/leads-icon.png" alt="Side Menu Icons" />
+								Leads
+		                    </a>
+		                </li>
+						<li>
+		                    <a class="panel-close" href="../../../deals/index.html">
+		                    	<img src="assets/img/icons/deals-icon.png" alt="Side Menu Icons" />
+								Deals
+		                    </a>
+		                </li>
+						<li>
+		                    <a class="panel-close" href="../../../projects/index.html">
+		                    	<img src="assets/img/icons/projects-icon.png" alt="Side Menu Icons" />
+								Projects
+		                    </a>
+		                </li>
+		                <li>
+		                    <a class="panel-close" href="../../../activities/index.html">
+		                    	<img src="assets/img/icons/activities-icon.png" alt="Side Menu Icons" />
+								Activities
+		                    </a>
+		                </li>
+		                <li>
+		                    <a class="panel-close" href="../../../email/index.html">
+		                    	<img src="assets/img/icons/email-icon.png" alt="Side Menu Icons" />
+								Email
+		                    </a>
+						</li>
+						<li>
+		                    <a class="panel-close" href="../../../settings/index.html">
+		                    	<img src="assets/img/icons/settings-icon.png" alt="Side Menu Icons" />
+								Settings
+		                    </a>
+		                </li>
+		                <li>
+		                    <a class="panel-close" href="../../../pages/index.html">
+		                    	<img src="assets/img/icons/report-icon.png" alt="Side Menu Icons" />
+								Pages
+		                    </a>
+		                </li>
+		                <li class="mt-5 pb-3">
+							<a href="../../../my-profile/index.html" class="panel-close">
+								<div class="menu-footer">
+									<img src="assets/img/user/user.jpg" alt="user" />
+									<h5>Tiana Rosser</h5>
+									<h6><span class="__cf_email__" data-cfemail="bcc8d5ddd2ddced3cfcfd9ce888ffcdbd1ddd5d092dfd3d1">[email&#160;protected]</span></h6>
+								</div>
+							</a>
+		                </li>
+					</ul>
+				</div>
+            </div>
+        </div>
+
+        <div class="view view-main view-init ios-edges" data-url="/">
+            <div class="page" data-name="index">
+
+				<div class="top-bg">
+					<div class="shape1"></div>
+					<div class="shape2"></div>
+				</div>
+
+            	<!-- Header -->
+            	<div class="navbar bg-trans">
+                    <div class="navbar-inner align-items-center">
+                        <div class="left">
+                            <a href="#" class="link panel-open" data-panel=".panel-left">
+                            	<!-- <img src="assets/img/icons/menu-icon.png" alt="Menu"> -->
+								<i class="fas fa-bars"></i>
+                            </a>
+						</div>
+						<div class="right">
+							<a href="../../../settings/index.html">
+								<img src="assets/img/icons/settings-icon.png" alt="Menu">
+							</a>
+						</div>
+                    </div>
+                </div>
+                <!-- /Header -->
+
+				<!-- User Section -->
+				<div class="header-user-section">
+					<div class="header-user-info">
+						<div class="position-relative">
+							<img src="assets/img/user/user.jpg" alt="Menu">
+							<div id="star8">
+								<i class="fas fa-check"></i>
+							</div>
+						</div>
+						<h5>Bruno Rodrigues</h5>
+						<h6>itbruno.com.br</h6>
+					</div>					
+				</div>
+				<!-- User Section -->
+				
+	            <div class="page-content dashboard-page">
+					
+					<div class="db-tab-con">
+					<div class="buttons-row ">
+					<div class="toolbar tabbar toolbar-bottom">
+						<div class="toolbar-inner">
+							<a href="#deals" class="tab-link tab-link-active button">
+								<span>
+									<img src="assets/img/dashboard/deal-icon.png" alt="Deals">
+								</span>			
+								Deals
+							</a>
+							<a href="#projects" class="tab-link button">
+								<span>
+									<img src="assets/img/dashboard/project-icon.png" alt="Projects">
+								</span>
+								Projects
+							</a>
+							<a href="#leads" class="tab-link button">
+								<span>
+									<img src="assets/img/dashboard/leads-icon.png" alt="Leads">
+								</span>
+								Leads
+							</a>
+						</div>
+					</div>
+					</div>
+					</div>
+					
+					<!--div class="content-block db-tab-con">
+						<div class="buttons-row row">
+							<div class="col-4 pr-2 pl-2">
+								<a href="#deals" class="tab-link tab-link-active button">
+									<span>
+										<img src="assets/img/dashboard/deal-icon.png" alt="Deals">
+									</span>			
+									Deals
+								</a>
+							</div>
+							<div class="col-4 pr-2 pl-2">
+								<a href="#projects" class="tab-link button">
+									<span>
+										<img src="assets/img/dashboard/project-icon.png" alt="Projects">
+									</span>
+									Projects
+								</a>
+							</div>						   	
+							<div class="col-4 pr-2 pl-2">
+								<a href="#leads" class="tab-link button">
+									<span>
+										<img src="assets/img/dashboard/leads-icon.png" alt="Leads">
+									</span>
+									Leads
+								</a>
+							</div>
+							
+						</div>
+					</div-->
+
+					<div class="tabs">
+						<div id="deals" class="tab tab-active">
+							<div class="content-block">
+								<div class="block">
+									<div class="row">
+										<div class="col-50">
+											<div class="card color-one">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-1.png" alt="Dashboard Icon">
+												</div>
+												<h5>Meetings</h5>
+												<h6>HR Departments</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="20"></div>
+													<span>1/2</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-two">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-2.png" alt="Dashboard Icon">
+												</div>
+												<h5>Proposales Sent</h5>
+												<h6>Deals</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="80"></div>
+													<span>20/20</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-three">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-3.png" alt="Dashboard Icon">
+												</div>
+												<h5>Meetings</h5>
+												<h6>HR Departments</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="10"></div>
+													<span>0/1</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-four">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-4.png" alt="Dashboard Icon">
+												</div>
+												<h5>Meetings</h5>
+												<h6>HR Departments</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="75"></div>
+													<span>9/10</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-100">
+											<!-- Total Deals -->
+											<div class="card chart-card pt-1 pb-0">
+												<div class="card-header no-padding">
+													<h4>Total Deals</h4>
+													<div class="chart-icon">
+														<a href="#">
+															<i class="fas fa-arrow-down"></i>
+														</a>
+														<a href="#" class="margin-left">
+															<i class="far fa-calendar"></i>
+														</a>
+													</div>
+												</div>
+
+												<div class="card-body no-padding">
+													<div class="content-block">
+														<div class="buttons-row">
+															<a href="#weekly" class="tab-link tab-link-active button">Weekly</a>
+															<a href="#monthly" class="tab-link button">Monthly</a>
+															<a href="#yearly" class="tab-link button">Yearly</a>
+														</div>
+													</div>
+
+													<div class="tabs">
+														<div id="weekly" class="tab tab-active">
+															<div id="deals-chart"></div>
+
+															<div class="prog-chart">
+																<div class="prog-chart-val">
+																	<div id="chartTdOne"></div>
+																	<h5>Asia</h5>
+																	<h6>Description</h6>
+																</div>
+
+																<div class="prog-chart-val">
+																	<div id="chartTdTwo"></div>
+																	<h5>Europe</h5>
+																	<h6>Description</h6>
+																</div>
+
+																<div class="prog-chart-val">
+																	<div id="chartTdThree"></div>
+																	<h5>USA</h5>
+																	<h6>Description</h6>
+																</div>
+															</div>
+														</div>
+														<div id="monthly" class="tab">
+															<div class="prog-chart">
+																<div class="prog-chart-val">
+																	<h5>Asia</h5>
+																	<h6>Description</h6>
+																</div>
+
+																<div class="prog-chart-val">
+																	<h5>Europe</h5>
+																	<h6>Description</h6>
+																</div>
+
+																<div class="prog-chart-val">
+																	<h5>USA</h5>
+																	<h6>Description</h6>
+																</div>
+															</div>
+														</div>
+														<div id="yearly" class="tab">
+															<div class="prog-chart">
+																<div class="prog-chart-val">
+																	<h5>Asia</h5>
+																	<h6>Description</h6>
+																</div>
+
+																<div class="prog-chart-val">
+																	<h5>Europe</h5>
+																	<h6>Description</h6>
+																</div>
+
+																<div class="prog-chart-val">
+																	<h5>USA</h5>
+																	<h6>Description</h6>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Product Sale -->
+											<div class="card chart-card pt-1 pb-0">
+												<div class="card-header no-padding">
+													<h4>Products Sales</h4>
+													<div class="chart-icon">
+														<a href="#">
+															<i class="fas fa-arrow-down"></i>
+														</a>
+														<a href="#" class="margin-left">
+															<i class="far fa-calendar"></i>
+														</a>
+													</div>
+												</div>
+
+												<div class="card-body no-padding">
+													<div class="content-block">
+														<div class="buttons-row">
+															<a href="#weekly1" class="tab-link tab-link-active button">Weekly</a>
+															<a href="#monthly1" class="tab-link button">Monthly</a>
+															<a href="#yearly1" class="tab-link button">Yearly</a>
+														</div>
+													</div>
+
+													<div class="tabs m-0">
+														<div id="weekly1" class="tab tab-active">
+															<div id="product-chart"></div>
+														</div>
+														<div id="monthly1" class="tab">
+														</div>
+														<div id="yearly1" class="tab">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="projects" class="tab">
+							<div class="content-block">
+								<div class="block">
+									<div class="row">
+										<div class="col-50">
+											<div class="card color-five">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-5.png" alt="Dashboard Icon">
+												</div>
+												<h5>Total Projects</h5>
+												<h6>Project Overview</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="75"></div>
+													<span>75%</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-six">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-6.png" alt="Dashboard Icon">
+												</div>
+												<h5>Completed</h5>
+												<h6>Completed Projects</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="80"></div>
+													<span>20/20</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-three">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-3.png" alt="Dashboard Icon">
+												</div>
+												<h5>Emails</h5>
+												<h6>Project Mails</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="10"></div>
+													<span>0/1</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-seven">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-7.png" alt="Dashboard Icon">
+												</div>
+												<h5>New Projects</h5>
+												<h6>All Projects</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="75"></div>
+													<span>9/10</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-100">
+											<!-- Total Projects -->
+											<div class="card chart-card pt-1 pb-0">
+												<div class="card-header no-padding">
+													<h4>Total Projects</h4>
+													<div class="chart-icon">
+														<a href="#">
+															<i class="fas fa-arrow-down"></i>
+														</a>
+														<a href="#" class="margin-left">
+															<i class="far fa-calendar"></i>
+														</a>
+													</div>
+												</div>
+
+												<div class="card-body no-padding">
+													<div class="content-block">
+														<div class="buttons-row">
+															<a href="#weekly2" class="tab-link tab-link-active button">Weekly</a>
+															<a href="#monthly2" class="tab-link button">Monthly</a>
+															<a href="#yearly2" class="tab-link button">Yearly</a>
+														</div>
+													</div>
+
+													<div class="tabs m-0">
+														<div id="weekly2" class="tab tab-active">
+															<div id="total-project-chart"></div>		
+														</div>
+														<div id="monthly2" class="tab"></div>
+														<div id="yearly2" class="tab"></div>
+													</div>
+												</div>
+											</div>
+
+											<!-- Sales Overview -->
+											<div class="card chart-card pt-1 pb-0">
+												<div class="card-header no-padding">
+													<h4>Sales Overview</h4>
+													<div class="chart-icon">
+														<a href="#">
+															<i class="fas fa-arrow-down"></i>
+														</a>
+														<a href="#" class="margin-left">
+															<i class="far fa-calendar"></i>
+														</a>
+													</div>
+												</div>
+
+												<div class="card-body no-padding">
+													<div class="content-block">
+														<div class="buttons-row">
+															<a href="#weekly3" class="tab-link tab-link-active button">Weekly</a>
+															<a href="#monthly3" class="tab-link button">Monthly</a>
+															<a href="#yearly3" class="tab-link button">Yearly</a>
+														</div>
+													</div>
+
+													<div class="tabs m-0">
+														<div id="weekly3" class="tab tab-active">
+															<div id="sales-overview-chart"></div>		
+														</div>
+														<div id="monthly3" class="tab"></div>
+														<div id="yearly3" class="tab"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="leads" class="tab">
+							<div class="content-block">
+								<div class="block">
+									<div class="row">
+										<div class="col-50">
+											<div class="card color-one">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-1.png" alt="Dashboard Icon">
+												</div>
+												<h5>Meetings</h5>
+												<h6>Business Departments</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="20"></div>
+													<span>1/2</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-two">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-2.png" alt="Dashboard Icon">
+												</div>
+												<h5>Proposales Sent</h5>
+												<h6>Deals</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="80"></div>
+													<span>20/20</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-three">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-3.png" alt="Dashboard Icon">
+												</div>
+												<h5>Meetings</h5>
+												<h6>HR Departments</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="10"></div>
+													<span>0/1</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-50">
+											<div class="card color-four">
+												<div class="db-icon">
+													<img src="assets/img/dashboard/icon-4.png" alt="Dashboard Icon">
+												</div>
+												<h5>Meetings</h5>
+												<h6>HR Departments</h6>
+												<div class="pr-div">
+													<div class="progressbar" data-progress="75"></div>
+													<span>9/10</span>
+												</div>												
+											</div>
+										</div>
+										<div class="col-100">
+											<div class="chart-icon display-flex justify-content-space-between padding">
+												<div class="display-flex">
+													<a href="#">
+														<i class="far fa-calendar"></i>
+													</a>
+													<select class="select">
+														<option>Last Year</option>
+													</select>
+												</div>											
+												
+												<a href="#">
+													<i class="fas fa-arrow-down"></i>
+												</a>
+											</div>
+										</div>
+										<div class="col-100">
+											<!-- Lead Statistics -->
+											<div class="card chart-card pt-1 pb-0">
+												<div class="card-header no-padding">
+													<h4>Lead Statistics</h4>
+												</div>
+
+												<div class="card-body no-padding">
+													<div id="lead-statistics-chart"></div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-100">
+											<div class="chart-icon display-flex justify-content-space-between padding">
+												<div class="display-flex">
+													<a href="#">
+														<i class="far fa-calendar"></i>
+													</a>
+													<select class="select">
+														<option>Last Year</option>
+													</select>
+												</div>											
+												
+												<a href="#">
+													<i class="fas fa-arrow-down"></i>
+												</a>
+											</div>
+										</div>
+										<div class="col-100">
+											<!-- Sales Overview -->
+											<div class="card chart-card mb-5 pt-1 pb-0">
+												<div class="card-header no-padding">
+													<h4>Sales Overview</h4>
+												</div>
+
+												<div class="card-body no-padding">
+													<div id="sales-chart"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	                
+	            </div>
+	            <!-- Page Content end -->
+
+            </div>
+        </div>
+
+    </div>
+    <!-- App end -->
+	
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.1.min.js" type="d134e3fc6c08ec0537ff9821-text/javascript"></script>
+    
+    <!-- Bootstrap Core JS -->
+	<!--script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script-->
+
+	<!-- Apex Charts -->
+	<script src="assets/plugins/apexcharts/apexcharts.min.js" type="d134e3fc6c08ec0537ff9821-text/javascript"></script>
+
+	<!-- Swiper JS -->
+    <script src="assets/plugins/swiper/js/swiper.min.js" type="d134e3fc6c08ec0537ff9821-text/javascript"></script>
+
+    <!-- Select2 JS -->
+    <script src="assets/plugins/select2/select2.min.js" type="d134e3fc6c08ec0537ff9821-text/javascript"></script>
+
+    <!-- Framework7 JS -->
+    <script src="assets/js/framework7.bundle.min.js" type="d134e3fc6c08ec0537ff9821-text/javascript"></script>
+    <script src="assets/js/routes.js" type="d134e3fc6c08ec0537ff9821-text/javascript"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/app.js" type="d134e3fc6c08ec0537ff9821-text/javascript"></script>
+	
+<script src="../../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="d134e3fc6c08ec0537ff9821-|49" defer></script></body>
+
+
+<!-- Mirrored from crms.dreamstechnologies.com/live/mobile/framework7/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Nov 2024 14:57:03 GMT -->
+</html>
