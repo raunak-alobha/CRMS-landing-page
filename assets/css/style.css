@@ -1398,7 +1398,7 @@ html.menu-opened body {
   position: absolute;
   display: flex;
   align-items: end;
-  top: 70px;
+  top: 80px;
   right: 70px;
   max-width: 650px;
   animation: updown 1s alternate infinite;
@@ -3390,6 +3390,8 @@ html.menu-opened body {
   }
   .inner-item-banner .inner-img-banner {
     max-width: 430px;
+    height: auto;
+    top: 100px;
   }
   .section-header h2 {
     font-size: 34px;
@@ -3875,8 +3877,8 @@ html.menu-opened body {
     flex-direction: column;
   }
   .top-footer-link > div + div {
-    padding-left: 0;
-    margin-left: 0;
+    padding-left: 45px;
+    margin-left: 45px;
     border-left: 0;
     margin-top: 20px;
   }
